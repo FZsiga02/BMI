@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <p>Írja be a cm-ben számított testmagasságát (cipő nélkül mérve): <input type="number"> cm</p>
-    <p>Írja be a kg-ban számított testsúlyát (cipő nélkül mérve): <input type="number"> kg</p>
-    <button>Számítás</button>
+    <section id="calculator">
+    <p>Írja be a cm-ben számított testmagasságát (cipő nélkül mérve): <input type="number" id="height"> cm</p>
+    <p>Írja be a kg-ban számított testsúlyát (cipő nélkül mérve): <input type="number" id="weight"> kg</p>
+    <button id="calculate">Számítás</button>
+    </section>
+
+    <h2>AZ ÖN BMI ÉRTÉKE: <input type="text" id="BMI" readonly></h2>
 </body>
 </html>
