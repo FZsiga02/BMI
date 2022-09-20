@@ -5,6 +5,8 @@ function calculate(){
     let bmi = weight / (height / 100) ** 2
     document.getElementById('BMI').value = bmi
 
+
+    //valamiért nem működik csak az első sorra
     if (bmi <= 18,5){
         document.getElementById('row1').style.backgroundColor = "orange";
     } else if (bmi <= 24,9){
