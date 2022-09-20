@@ -1,0 +1,50 @@
+body{
+    color: orange;
+}
+
+#calculator{
+    background-color: orange;
+    color: white;
+    font-family: sans-serif;
+    text-align: justify;
+    width: 50%;
+    margin: auto;
+}
+
+#table{
+    margin:auto;
+    width: 50%;
+}
+
+.title{
+    font-weight: bold;
+    color: grey;
+}
+
+table{
+    width: 50%;
+    color: black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+tr, td{
+    height: 50px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.sub{
+    text-align: left;
+}
+
+.size{
+    float: right;
+    margin-right: 50px;
+}
+
+.bgcolor{
+    background-color: red;
+}
+
+
