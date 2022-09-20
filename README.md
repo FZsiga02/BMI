@@ -1,4 +1,4 @@
-# [Név]
+# Füzi Zsigmond
 
 ## Hogyan kezdj neki?
 
