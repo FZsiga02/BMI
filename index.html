@@ -9,41 +9,45 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <section id="calculator">
-    <p>Írja be a cm-ben számított testmagasságát (cipő nélkül mérve): <input type="number" id="height"> cm</p>
-    <p>Írja be a kg-ban számított testsúlyát (cipő nélkül mérve): <input type="number" id="weight"> kg</p>
-    <button id="calculate">Számítás</button>
+    <section>
+        <div id="calculator">  
+            <p>Írja be a cm-ben számított testmagasságát (cipő nélkül mérve): <input type="number" id="height" class="size"></p>
+            <p>Írja be a kg-ban számított testsúlyát (cipő nélkül mérve): <input type="number" id="weight" class="size"></p>
+            <button id="calculate">Számítás</button>
+        </div>
     </section>
 
-    <h2>AZ ÖN BMI ÉRTÉKE: <input type="text" id="BMI" readonly></h2>
 
-    <section id="table">
-        <table>
-            <tr>
-                <td class="title">18,5 vagy kevesebb</td>
-                <td>SOVÁNY</td>
-            </tr>
-            <tr>
-                <td class="title">18,5-24,9</td>
-                <td>NORMÁL</td>
-            </tr>
-            <tr>
-                <td class="title">25-29,9</td>
-                <td>Túlsúly</td>
-            </tr>
-            <tr>
-                <td class="title">30-34,9</td>
-                <td>I. FOKÚ ELHÍZÁS</td>
-            </tr>
-            <tr>
-                <td class="title">35-39,9</td>
-                <td>II. FOKÚ ELHÍZÁS</td>
-            </tr>
-            <tr>
-                <td class="title">40 vagy több</td>
-                <td>III. FOKÚ ELHÍZÁS</td>
-            </tr>
-        </table>
+    <section>
+        <div id="table">
+            <h2>AZ ÖN BMI ÉRTÉKE: <input type="text" id="BMI" readonly></h2>
+            <table>
+                <tr id="row1">
+                    <td class="title">18,5 vagy kevesebb</td>
+                    <td class="sub">SOVÁNY</td>
+                </tr>
+                <tr id="row2">
+                    <td class="title">18,5-24,9</td>
+                    <td class="sub">NORMÁL</td>
+                </tr>
+                <tr id="row3">
+                    <td class="title">25-29,9</td>
+                    <td class="sub">Túlsúly</td>
+                </tr>
+                <tr id="row4">
+                    <td class="title">30-34,9</td>
+                    <td class="sub">I. FOKÚ ELHÍZÁS</td>
+                </tr>
+                <tr id="row5">
+                    <td class="title">35-39,9</td>
+                    <td class="sub">II. FOKÚ ELHÍZÁS</td>
+                </tr>
+                <tr id="row6">
+                    <td class="title">40 vagy több</td>
+                    <td class="sub">III. FOKÚ ELHÍZÁS</td>
+                </tr>
+            </table>
+        </div>
     </section>
 </body>
 </html>
